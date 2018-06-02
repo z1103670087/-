@@ -1,289 +1,52 @@
-/*top*/
-/*left*/
-* {
-  font-size: 11px; }
+/*
+Error: Invalid CSS after "...   list-style: ": expected expression (e.g. 1px, bold), was ";"
+        on line 56 of D:\Epet\sass\index.scss
 
-a {
-  color: black; }
+51:         height:111px;
+52:         width:102px;
+53:         border:1px solid #ddd;
+54:         border-top: none;
+55:         background:#fff;
+56:         list-style: ;
+57:     }
+58: 
+59: /*nav*\/
+60: #nav{width:1200px;height:237px;}
+61: .navc{padding-top:22px;width:100%;height:123px;}
 
-a:hover {
-  color: black;
-  text-decoration: none; }
-
-b {
-  font-weight: normal; }
-
-.margin-top {
-  margin-top: 30px; }
-
-#top {
-  background: #f5f5f5;
-  border-bottom: 1px solid #f5f5f5; }
-
-#top1 {
-  width: 1200px;
-  height: 29px;
-  position: relative; }
-
-#top1 p {
-  margin: 0 5px; }
-
-#top1 p:first-child {
-  display: block;
-  height: 29px;
-  line-height: 29px;
-  background: url(../images/epetbrand.png) no-repeat 0 8px;
-  text-indent: 18px; }
-
-#top1 p:nth-child(2) {
-  line-height: 29px; }
-
-#top1 p:nth-child(3) a {
-  line-height: 29px;
-  margin-right: 21px; }
-
-#top1 p:nth-of-type(4) a {
-  display: block;
-  height: 29px;
-  line-height: 29px;
-  background: url(../images/bg3.png) no-repeat 0 8px;
-  text-indent: 18px; }
-
-#top1 p a {
-  color: black; }
-
-#top1 p:last-child {
-  line-height: 29px; }
-
-#top1 p:last-child a b {
-  color: #ff6600; }
-
-#top1 p a:hover {
-  color: #248dcc;
-  text-decoration: none; }
-
-#top1 p:nth-child(3) b {
-  position: absolute;
-  top: 12px;
-  left: 28px;
-  background: url(../images/xqico.png) no-repeat 5px -34px;
-  display: block;
-  height: 10px;
-  width: 20px; }
-
-#top1 p:nth-child(3) a:hover {
-  color: black; }
-
-#top1 p:nth-of-type(4) a:hover {
-  color: #ff6600; }
-
-#show {
-  display: none; }
-
-/*right*/
-#r ul li {
-  display: block;
-  height: 29px;
-  line-height: 29px;
-  padding: 0 7px; }
-
-#r ul li a {
-  color: black; }
-
-#r ul li i {
-  width: 14px;
-  height: 14px;
-  background: url(../images/bg.png) no-repeat -290px -45px;
-  margin-top: 6px;
-  margin-right: 7px; }
-
-#r ul li:nth-of-type(4) i {
-  background-position-x: -315px; }
-
-#r ul li:nth-of-type(5) i {
-  background-position-x: -354px; }
-
-#r ul li:nth-of-type(6) i {
-  background-position-x: -333px; }
-
-#r ul li:last-of-type a {
-  color: #ff6600; }
-
-#r ul li a:hover {
-  color: #248dcc;
-  text-decoration: none; }
-
-#r ul li:nth-of-type(5) a:hover {
-  color: black; }
-
-#r ul li:nth-of-type(3) b {
-  color: #ff6600; }
-
-#r ul li:nth-of-type(4) b {
-  display: block;
-  width: 7px;
-  height: 4px;
-  background: url(../images/bg2.png) no-repeat -41px -166px;
-  position: absolute;
-  top: 5px;
-  left: 54px;
-  transition: 0.2s;
-  transform-origin: 50% 25%; }
-
-#r ul li:nth-of-type(4) a {
-  position: relative;
-  padding-right: 15px; }
-
-#r ul li:nth-of-type(4) a:hover b {
-  transform: rotate(180deg); }
-
-#r ul li:nth-of-type(5) b {
-  display: block;
-  width: 7px;
-  height: 4px;
-  background: url(../images/bg2.png) no-repeat -41px -166px;
-  position: absolute;
-  top: 5px;
-  left: 38px;
-  transition: 0.2s;
-  transform-origin: 50% 25%; }
-
-#r ul li:nth-of-type(5) a {
-  position: relative;
-  padding-right: 15px; }
-
-#r ul li:nth-of-type(5) a:hover b {
-  transform: rotate(180deg); }
-
-/*nav*/
-#nav {
-  width: 1200px;
-  height: 237px; }
-
-.navc {
-  padding-top: 22px;
-  width: 100%;
-  height: 123px; }
-
-.navl a {
-  margin-left: 49px;
-  display: block;
-  width: 252px;
-  height: 81px;
-  background: url(../images/epet-logo.png) no-repeat -49px -14px; }
-
-#nav .navc form {
-  margin-top: 14px; }
-  #nav .navc form #txt {
-    height: 34px;
-    width: 407px;
-    border: 2px solid #459d36;
-    padding-left: 15px;
-    outline: 0; }
-  #nav .navc form #btn {
-    height: 34px;
-    width: 73px;
-    background: #459d36;
-    border: none; }
-  #nav .navc form #btn:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
-  #nav .navc form #remen {
-    padding-top: 47px; }
-    #nav .navc form #remen label {
-      font-weight: normal;
-      color: #999999; }
-      #nav .navc form #remen label span {
-        padding: 0 5px; }
-    #nav .navc form #remen a {
-      padding: 0 11px;
-      border-right: 1px solid #999999;
-      color: #999999; }
-    #nav .navc form #remen a:hover {
-      color: black; }
-    #nav .navc form #remen a:nth-of-type(1) {
-      color: #ff0000;
-      padding-left: 0; }
-    #nav .navc form #remen a:nth-of-type(1):hover {
-      color: #ff0000; }
-    #nav .navc form #remen a:last-child {
-      border: none; }
-
-#rexian {
-  width: 144px;
-  height: 23px;
-  background: url(../images/bg.png) no-repeat 0 -521px;
-  margin: 21px 0 0 60px; }
-
-#shopping {
-  background: url(../images/shopping-cart.gif);
-  width: 130px;
-  height: 39px;
-  padding: 14px 0 0 50px;
-  margin-top: 15px; }
-  #shopping b {
-    color: #fe4400; }
-
-#nave span {
-  float: left;
-  height: 34px;
-  width: 114px;
-  border: 1px solid #e1e1e1; }
-  #nave span a {
-    font-size: 15px;
-    line-height: 34px; }
-    #nave span a b {
-      width: 16px;
-      height: 13px;
-      display: inline-block;
-      margin-left: 5px;
-      transition: 0.3s; }
-#nave span:first-child a b {
-  background: url(../images/bg2.png) -17px -1257px; }
-#nave span:nth-of-type(2) a b {
-  background: url(../images/bg2.png) -17px -1276px;
-  width: 13px;
-  height: 7px;
-  margin-bottom: 2px; }
-#nave ul {
-  height: 34px;
-  float: left;
-  padding: 0;
-  margin: 0; }
-  #nave ul li {
-    float: left; }
-    #nave ul li img {
-      margin-top: -3px; }
-    #nave ul li a {
-      height: 34px;
-      display: block;
-      font-weight: bold;
-      font-size: 15px;
-      text-align: center;
-      line-height: 34px;
-      padding: 0 25px; }
-      #nave ul li a b {
-        display: inline-block;
-        width: 13px;
-        height: 17px;
-        transition: 0.3s;
-        background: url(../images/bg2.png) -35px -1280px;
-        margin-bottom: -3px;
-        margin-right: 6px; }
-    #nave ul li a:hover {
-      color: #409b49; }
-  #nave ul li:first-child {
-    margin-left: 26px; }
-
-#lunbo {
-  height: 360px;
-  width: 100%;
-  background: blue; }
-
-#miaosha {
-  height: 460px;
-  width: 1200px;
-  background: black;
-  margin-top: 30px;
-  margin-bottom: 22px; }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+D:\Epet\sass\index.scss:56
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/parser.rb:710:in `assert_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/parser.rb:75:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1063:in `sass_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:909:in `value!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1183:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1183:in `rethrow'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:791:in `try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...   list-style: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 56 of D:\Epet\sass\index.scss\A \A 51:         height:111px;\A 52:         width:102px;\A 53:         border:1px solid #ddd;\A 54:         border-top: none;\A 55:         background:#fff;\A 56:         list-style: ;\A 57:     }\A 58: \A 59: /*nav*/\A 60: #nav{width:1200px;height:237px;}\A 61: .navc{padding-top:22px;width:100%;height:123px;}"; }
